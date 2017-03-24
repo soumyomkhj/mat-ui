@@ -1,6 +1,6 @@
 // main js
 $(".wave").click(function (e) {
-  
+
   // Remove any old one
   $(".ripple").remove();
 
@@ -9,23 +9,23 @@ $(".wave").click(function (e) {
 	  posY = $(this).offset().top,
 	  buttonWidth = $(this).width(),
 	  buttonHeight =  $(this).height();
-  
+
   // Add the element
   $(this).prepend("<span class='ripple'></span>");
 
-  
+
  // Make it round!
   if(buttonWidth >= buttonHeight) {
 	buttonHeight = buttonWidth;
   } else {
-	buttonWidth = buttonHeight; 
+	buttonWidth = buttonHeight;
   }
-  
+
   // Get the center of the element
   var x = e.pageX - posX - buttonWidth / 2;
   var y = e.pageY - posY - buttonHeight / 2;
-  
- 
+
+
   // Add the ripples CSS and start the animation
   $(".ripple").css({
 	width: buttonWidth,
@@ -38,7 +38,7 @@ $(".wave").click(function (e) {
 
 
 $(".btn").click(function (e) {
-  
+
   // Remove any old one
   $(".ripple").remove();
 
@@ -47,23 +47,23 @@ $(".btn").click(function (e) {
 	  posY = $(this).offset().top,
 	  buttonWidth = $(this).width(),
 	  buttonHeight =  $(this).height();
-  
+
   // Add the element
   $(this).prepend("<span class='ripple'></span>");
 
-  
+
  // Make it round!
   if(buttonWidth >= buttonHeight) {
 	buttonHeight = buttonWidth;
   } else {
-	buttonWidth = buttonHeight; 
+	buttonWidth = buttonHeight;
   }
-  
+
   // Get the center of the element
   var x = e.pageX - posX - buttonWidth*2;
   var y = e.pageY - posY - buttonHeight*2;
-  
- 
+
+
   // Add the ripples CSS and start the animation
   $(".ripple").css({
 	width: buttonWidth*4,
@@ -80,7 +80,7 @@ $(".btn").click(function (e) {
 // Dark one
 
 $(".wave-dark").click(function (e) {
-  
+
   // Remove any old one
   $(".ripple-dark").remove();
 
@@ -89,23 +89,23 @@ $(".wave-dark").click(function (e) {
 	  posY = $(this).offset().top,
 	  buttonWidth = $(this).width(),
 	  buttonHeight =  $(this).height();
-  
+
   // Add the element
   $(this).prepend("<span class='ripple-dark'></span>");
 
-  
+
  // Make it round!
   if(buttonWidth >= buttonHeight) {
 	buttonHeight = buttonWidth;
   } else {
-	buttonWidth = buttonHeight; 
+	buttonWidth = buttonHeight;
   }
-  
+
   // Get the center of the element
   var x = e.pageX - posX - buttonWidth / 2;
   var y = e.pageY - posY - buttonHeight / 2;
-  
- 
+
+
   // Add the ripples CSS and start the animation
   $(".ripple-dark").css({
 	width: buttonWidth,
@@ -122,7 +122,7 @@ $(".wave-dark").click(function (e) {
 
 
 $(".btn-dark").click(function (e) {
-  
+
   // Remove any old one
   $(".ripple-dark").remove();
 
@@ -131,23 +131,23 @@ $(".btn-dark").click(function (e) {
 	  posY = $(this).offset().top,
 	  buttonWidth = $(this).width(),
 	  buttonHeight =  $(this).height();
-  
+
   // Add the element
   $(this).prepend("<span class='ripple-dark'></span>");
 
-  
+
  // Make it round!
   if(buttonWidth >= buttonHeight) {
 	buttonHeight = buttonWidth;
   } else {
-	buttonWidth = buttonHeight; 
+	buttonWidth = buttonHeight;
   }
-  
+
   // Get the center of the element
   var x = e.pageX - posX - buttonWidth*2;
   var y = e.pageY - posY - buttonHeight*2;
-  
- 
+
+
   // Add the ripples CSS and start the animation
   $(".ripple-dark").css({
 	width: buttonWidth*4,
@@ -163,7 +163,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 $(document).ready(function () {
 
-	
+
 	var button = '#slidx_button'; //Elemento en el que pulsamos para abrir y cerrar el menú.
 	var menu = '#slidx_menu'; //Elemento que contiene el menú responsive.
 	var side = 'left' //Indica de que lado está el menú ('right' o 'left')
@@ -187,7 +187,7 @@ $(document).ready(function () {
 	var speedM = speed * 1000;
 	$(menu).css({
 		'transition': speed + 's',
-		'z-index': zIndexMenu,        
+		'z-index': zIndexMenu,
 		'-webkit-transition': 'all 1.2s cubic-bezier(0,.91,0,.99)',
 		'-o-transition': 'all 1.2s cubic-bezier(0,.91,0,.99)',
 		'transition': 'all 1.2s cubic-bezier(0,.91,0,.99)',
@@ -292,7 +292,7 @@ $(document).ready(function () {
 			$(slidxShadowID).remove();
 		}, speedM);
 	};
-	if(isMobile == true) 
+	if(isMobile == true)
 	{
 		$(button).click(function () {
 			event.preventDefault();

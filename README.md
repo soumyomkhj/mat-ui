@@ -2,5 +2,4 @@
 Material Design CSS
 
 
-
-All the documentation will be done here
+pure beauty will be uploaded just wait

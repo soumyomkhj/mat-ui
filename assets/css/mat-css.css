@@ -59,7 +59,7 @@
 
 html,body
 {
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif !important;
 	background-color: #E7E7E7;
 	font-weight: 400;
 }
@@ -144,6 +144,11 @@ blockquote,.quote,.blockquote
 {
 	font-family: "Convergence" ,sans-serif;
 	padding:  30px !important;
+}
+.huge
+{
+  font-size: 100px !important;
+  font-weight: 200;
 }
 
 /*text styles ends */
@@ -397,7 +402,7 @@ footer,.footer
 }
 
 .float-btn{
-	min-width: 0;	
+	min-width: 0;
 	bottom: 40px;
 	right:40px;
 	vertical-align: middle;
