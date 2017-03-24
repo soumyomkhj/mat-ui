@@ -1,0 +1,4 @@
+<!-- svg file -->
+<svg widhth="100px" height="100px">
+<circle cx="50" cy="50" r="40" fill="black"/>
+</svg>
