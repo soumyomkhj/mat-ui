@@ -59,7 +59,7 @@
 
 html,body
 {
-	font-family: "Roboto", sans-serif !important;
+	font-family: "Roboto", sans-serif;
 	background-color: #E7E7E7;
 	font-weight: 400;
 }
@@ -144,6 +144,10 @@ blockquote,.quote,.blockquote
 {
 	font-family: "Convergence" ,sans-serif;
 	padding:  30px !important;
+}
+blockquote,.blockquote
+{
+  padding-left: 100px;
 }
 .huge
 {

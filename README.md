@@ -1,5 +1,18 @@
 # mat-ui
 Material Design CSS
 
+  =========================================
+                  Text styles
+      .light
+      .semilight
+      .semibold
+      .bold
+      .h1,h2,h3,h4,h5,h6
+      .blockquote
+      .quote
+      .align-left
+      .align-right
+      .align-center
 
-pure beauty will be uploaded just wait
+
+more of pure beauty will be added just wait
