@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+  padding: 0; }
+
+.calculator {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: absolute; }
+  .calculator .display {
+    background-color: black;
+    height: 20vh;
+    width: 100vw;
+    display: block; }
+    .calculator .display .setting {
+      width: 5%;
+      position: absolute;
+      opacity: 70%;
+      top: 0px;
+      padding: 5px;
+      right: 0px;
+      -moz-transition: opacity 300ms;
+      -o-transition: opacity 300ms;
+      -webkit-transition: opacity 300ms;
+      transition: opacity 300ms; }
+      .calculator .display .setting:hover {
+        opacity: 100%; }
+
+/*# sourceMappingURL=stylesheet.css.map */
